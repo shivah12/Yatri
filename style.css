@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.955);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Lisu Bosa", serif;
+  text-align: center;
+}
+
+.section__subheader {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color:#d4d8e0;
+  background-color: #21223d7d;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #f6f6f6;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color:#ffffff;
+  background-color: #141f3b;
+}
+
+
+header {
+  background-image: url("images/galleryimage.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: rgba(116, 71, 71, 0.337);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.nav__bar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav__logo a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff4f4;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  padding: 1.5rem 5px;
+  font-weight: 500;
+  color:#dcdcdc;
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #6b6e6c;
+}
+
+.link span {
+  padding: 1rem 0;
+  color: #e6e3e3;
+  cursor: pointer;
+}
+
+.header__container {
+  padding: 12rem 1rem;
+}
+
+.header__container h1 {
+  margin-bottom: 1rem;
+  max-width: 700px;
+  font-size: 4rem;
+  font-family: "Lisu Bosa", serif;
+}
+
+.header__container h3 {
+  position: relative;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* about section */
+
+.main-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--black-color);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 10px -1px rgba(255, 253, 253, 0.756);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+  }
+  
+  .main-btn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+  }
+
+  
+
+
+
+
+/*banner*/
+
+.explore-food .card{
+    border:none;
+    background-color:transparent;
+    border-radius: 0.9375rem;
+  }
+  .explore-food .card img{
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+  }
+  .explore-food .card span{
+    display:block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:var(--primary-color);
+    padding-bottom: 1rem;
+    border-bottom:0.0625rem solid #eee;
+  }
+  .explore-food p{
+    color:var(--text-color);
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+/* services section */
+.services__section {
+  background-image:  url("images/hotel.jpg"); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.services__container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.service__card {
+  flex: 0 1 calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service__card img {
+  max-width: 60px;
+  margin:auto;
+}
+
+.service__card h3 {
+  font-size: 1.5rem;
+  color: #0a0d14;
+}
+
+.service__card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.btn-book {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #0a0d14;
+  background-color:#15161653 ;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-book:hover{
+  background-color: #b8c4bfc7;
+}
+/*testimonials*/
+.wrapper {
+	padding: 50px 0;
+	position: relative;
+	margin: 120px 0;
+}
+.carousel-control.left, .carousel-control.right {
+	background: transparent;
+}
+.imgBox {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border: 5px dashed #262626;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.imgBox img {
+	width: 100%;
+}
+.carousel-inner {
+	background: aliceblue;
+	padding: 35px;
+	border-radius: 25px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.carousel-caption {
+	position: static;
+	padding-bottom: 15px;
+	padding-top: 0;
+}
+.carousel-caption h3 {
+	font-size: 50px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	font-family: 'Allura', cursive;
+	color: #262626;
+	text-shadow: none;
+}
+.carousel-caption h4 {
+	color: #2b2626;
+	text-shadow: none;
+}
+.carousel-caption p {
+	font-size: 18px;
+	margin: auto;
+	width: 70%;
+	margin-bottom: 10px;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-shadow: none;
+	color: #2b2626;
+}
+.carousel-indicators li {
+	background-color: #ddd;
+	width: 50px;
+}
+.carousel-control {
+	color: #2b2626;
+}
+.carousel-indicators .active {
+	background-color: #2b2626;
+	width: 20px
+}
+.carousel-indicators {
+	bottom: 10px;
+}
+
+  
+  
+/* footer section */
+.footer{
+  background: var(--black-color);
+} 
+.footer .footer-social a i{
+  font-size: 1.5rem;
+  color:var(--white-color);
+  padding:0 1rem;
+}
+.footer .footer-social a:hover i{
+  color:var(--primary-color);
+}
+ 
+
+/* Form Control */
+.newsletter .form-control{
+  height:3.225rem;
+  padding:0 1.25rem;
+  font-size: 0.875rem;
+  width:100%;
+  border-radius: 0;
+  background:transparent;
+  border:0.1875rem solid var(--white-color);
+  color:var(--black-color);
+  font-weight: 700;
+  font-family: 'Cascadia Mono Semilight', monospace;
+}
+.newsletter .main-btn{
+  height:3.225rem;
+  padding:0 1.25rem;
+  font-size: 0.875rem;
+  border-radius: 0;
+  background-color: var(--white-color);
+  border:0.1875rem solid var(--white-color);
+  color:var(--black-color);
+  font-weight: 700;
+}
+.newsletter:hover .form-control{
+  border:0.1875rem solid var(--primary-color);
+  color:var(--black-color);
+}
+.newsletter:hover .main-btn{
+ background:var(--primary-color); 
+ border:0.1875rem solid var(--primary-color);
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+  outline:none;
+  box-shadow: none;
+  border-color:var(--primary-color);
+}
+
+<!--Responsive Design-->
+@media (max-width: 991px) {
+
+    /*custom classes  */ 
+    .text-content{
+        width:100%;
+    }
+
+    /* navbar brand */ 
+    .navigation-wrap .navbar-brand img{
+        height:3.8125rem
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+        color:var(--black-color);
+    }
+
+    /* Banner Design */ 
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
+    }
+
+    /* carousel design */ 
+    .testimonial-section .carousel-caption p{
+        padding:0;
+    }
+
+    /* footer link */ 
+    .footer .footer-social a i{
+        padding:0 0.75rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+
+    /* top banner */ 
+    .top-banner{
+        padding:10.375rem 0 9.375rem;
+    }
+
+    /* carousel design */ 
+    .testimonial-section .carousel-item{
+        padding:11rem 3.125rem;
+    }
+}
+
+@media (max-width:330px) {
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:13rem 3.125rem;
+    } 
+}
